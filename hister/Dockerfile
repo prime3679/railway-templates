@@ -1,0 +1,3 @@
+FROM ghcr.io/asciimoo/hister:v0.20.0
+ENV HISTER__SERVER__ADDRESS=0.0.0.0:4433
+EXPOSE 4433
